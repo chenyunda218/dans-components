@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
 
-let idCounter = 0;
-
 interface IProps {
   size?: number;
   mode?: "light" | "dark";
